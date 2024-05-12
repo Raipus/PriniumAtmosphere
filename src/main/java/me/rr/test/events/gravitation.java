@@ -22,10 +22,11 @@ public class gravitation implements Listener {
         player.addPotionEffect(new PotionEffect(PotionEffectType.SLOW_FALLING, PotionEffect.INFINITE_DURATION, 1, false,false, false));
 
         for (ArmorStand armorStand1 : armorStand) {
-            //if (armorStand1.getEquipment().getHelmet().getType().equals(Material.STONE)){} // Проверка содержания шлема
-            if (isPlayerInRadius(player, armorStand1.getLocation(), 10)) {
-                player.removePotionEffect(PotionEffectType.JUMP);
-                player.removePotionEffect(PotionEffectType.SLOW_FALLING);
+            if (armorStand1.getEquipment().getHelmet().getType().equals(Material.STONE)){
+                if (isPlayerInRadius(player, armorStand1.getLocation(), 10)) {
+                    player.removePotionEffect(PotionEffectType.JUMP);
+                    player.removePotionEffect(PotionEffectType.SLOW_FALLING);
+                }
             }
         }
     }

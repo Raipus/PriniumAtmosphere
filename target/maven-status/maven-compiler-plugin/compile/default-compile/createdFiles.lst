@@ -1,2 +1,4 @@
-me\rr\test\events\gravitation.class
 me\rr\test\PriniumAtmosphere.class
+me\rr\test\events\generatorGravitation.class
+me\rr\test\events\gravitation.class
+me\rr\test\items\giveGraviGenerator.class
