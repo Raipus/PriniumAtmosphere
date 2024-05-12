@@ -1,0 +1,6 @@
+name: Test
+version: '${project.version}'
+main: me.rr.test.PriniumAtmosphere
+api-version: '1.20'
+load: STARTUP
+authors: [Richard Rainhardt]
