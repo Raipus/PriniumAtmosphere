@@ -6,6 +6,11 @@ load: STARTUP
 authors: [Richard Rainhardt]
 
 commands:
-  giveGraviGenerator:
-    aliases:
-      - giveGG
+  giveoxygengenerator:
+    description: Выдает генератор атмосферы
+    usage: /giveoxygengenerator
+    permission: ap.give.oxygen
+  givegravigenerator:
+    description: Выдает генератор гравитации
+    usage: /givegravigenerator
+    permission: ap.give.gravigen

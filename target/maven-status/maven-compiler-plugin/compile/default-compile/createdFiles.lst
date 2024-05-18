@@ -1,4 +1,14 @@
+me\rr\test\events\oxygen\Oxygen.class
+me\rr\test\events\gravitation\Gravitation.class
+me\rr\test\events\oxygen\CreateOxyGen.class
+me\rr\test\events\gravitation\CreateGraviGen.class
 me\rr\test\PriniumAtmosphere.class
-me\rr\test\events\generatorGravitation.class
-me\rr\test\events\gravitation.class
-me\rr\test\items\giveGraviGenerator.class
+me\rr\test\events\oxygen\OxygenTest.class
+me\rr\test\events\gravitation\RemoveGraviGen.class
+me\rr\test\cmds\GiveGraviGenCMD.class
+me\rr\test\cmds\GiveOxyGenCMD.class
+me\rr\test\events\oxygen\AirTimerTask2.class
+me\rr\test\events\oxygen\OnJoinOxygen.class
+me\rr\test\events\oxygen\AirTimerTask.class
+me\rr\test\events\KillShulker.class
+me\rr\test\events\oxygen\AirTimerTask3.class
